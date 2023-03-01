@@ -17,7 +17,7 @@ const server = require('http').createServer(app);
 const PORT = 5001;
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'https://master--soft-elf-4de1fb.netlify.app',
+    origin: '*',
     methods: ['GET', 'POST']
   }
 })
