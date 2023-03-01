@@ -22,6 +22,7 @@ const io = require('socket.io')(server, {
   }
 })
 
+// a
 
 async function getLastMessagesFromRoom(room){
   let roomMessages = await Message.aggregate([
